@@ -6,7 +6,7 @@ from generator import generate_password
 
 
 def main():
-    print("GENERADOR DE CONTRASEÑAS 🔐\n")
+    print("GENERADOR DE CONTRASEÑAS 🔐")
 
     longitud = pedir_longitud()
 
@@ -23,12 +23,12 @@ def main():
     )
 
     if not caracteres:
-        print("\n❌ Debes seleccionar al menos un tipo de carácter.")
+        print("Debes seleccionar al menos un tipo de carácter.")
         return
 
     contrasena = generate_password(longitud, caracteres)
 
-    print("\n✅ Contraseña generada:")
+    print("Contraseña generada:")
     print(contrasena)
 
 
