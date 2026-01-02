@@ -20,14 +20,14 @@ Este proyecto permite generar contraseñas seguras configurando:
 
 ## 🗂️ Estructura del proyecto
 
-password_generator/
-│
-├── main.py 
-├── config.py 
-├── generator.py 
-├── validators.py 
-├── README.md 
-└── .gitignore 
+    password_generator/
+    │
+    ├── main.py 
+    ├── config.py 
+    ├── generator.py 
+    ├── validators.py 
+    ├── README.md 
+    └── .gitignore 
 
 
 ---
